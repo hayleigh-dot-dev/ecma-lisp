@@ -1,0 +1,15 @@
+# Try each of these lines in th repl.
+
+# This should transpile into an es6 import
+(import (add sub mul div) './math')
+
+# This should transpile into an es6 arrow function
+(let double (=> (x) (mul x 2)))
+
+# This should transpile into a variable declaration and a function call to
+# `double(10)
+(let y (double 10))
+
+# This should transpile into a variable declaration and an object initialisation
+# { ['x']: 10 }
+(let z { 'x' 10 })

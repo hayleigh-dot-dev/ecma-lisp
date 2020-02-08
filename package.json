@@ -1,0 +1,17 @@
+{
+  "name": "ecma-lisp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "elm make src/Main.elm --output=src/elm.js",
+    "build": "elm make src/Main.elm --output=src/elm.js --optimize",
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "repl": "^0.1.3"
+  }
+}
